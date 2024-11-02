@@ -1,0 +1,60 @@
+body{
+    overflow: hidden;
+}
+header  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    position: relative;
+}
+#content{
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+#content h2 p{
+    color: #F16E00;
+    line-height: 16px;
+    font-size: 20px;
+    text-align: center;
+}
+#body-content {
+background-image: url(../images/character.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+height: 264px;
+}
+
+.download  p{
+font-family: Roboto, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 32px;
+    margin-top: 47px;
+}
+.buttons {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    gap: 10px; 
+}
+
+.buttons img {
+    width: 140px; 
+    max-width: 100%;
+    
+}
+.bOrangeCercle{
+margin-left: 93%;
+left: 0;
+}
+.blackCercle{
+    margin-top: 61%;
+    margin-left: -47%;
+}
+.orangeCercle{
+    margin-top: 3%;
+}
